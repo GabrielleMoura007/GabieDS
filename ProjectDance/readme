@@ -1,0 +1,30 @@
+Olá! Esse projeto se trata de um site de Dança, sua história e seus estilos
+
+Propostas para a estrutura do site: 
+
+* CSS (Sytle)
+    * color1 { #fce7d2 };
+    * color2 { #e0dbbd };
+    * color3 { #c0ceaa };
+    * color4 { #fd8086 };
+    * color5 { #eb5874 };
+
+* (index.html)
+    * Introdução à Dança como Arte (texto sobre o que a dança representa como forma de expressão artística); visão geral dos estilos de dança.
+    * Banner com imagem/vídeo de dança.
+    * Breve descrição do site.
+    * Links rápidos para as outras páginas.
+
+* História (history.html)
+    * Linha do tempo;
+    * Um parágrafo resumido sobre a evolução da dança ao longo dos anos.
+    * Uma breve descrição de como a dança influencia diferentes culturas.
+
+
+* ballet.html
+    * falar sobre
+
+* contemporary.html
+    * falar sobre
+
+* breakdance.html

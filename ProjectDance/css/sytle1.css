@@ -1,0 +1,195 @@
+
+/* Cabeçalho */
+* {
+    Box-Sizing: Border-Box;
+    Margin: 0;
+    Padding: 0;
+}
+
+.config {
+    margin: 0 auto;
+    max-width: 80%;
+    }
+
+.cabeçalho-frase {
+    background-color: #c0ceaa;
+    color: #222;
+    text-align:center;
+    padding: 1%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.cabeçalho-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #c0ceaa;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 1%;
+}
+
+/* Configuração da logo */
+.logo img {
+    max-width: 90px;
+    height: auto;
+}
+
+/* Navegação pelo site */
+nav {
+    margin-top: 10px;
+    margin-right: 5%;
+}
+
+nav a {
+    color: #c0ceaa;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fd8086;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #fd8086;
+    text-decoration: underline;
+}
+
+/* Corpo */
+body {
+    box-sizing: border-box;
+    color: #222;
+    font-family: "arial", sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* Rodapé */
+footer {
+    width: 100vw;
+    background-color: #c0ceaa;
+    color: #222;
+    text-align: center;
+    padding: 1% 0;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 3%;
+}
+
+/* Links no rodapé */
+footer a {
+    color: #fd8086;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #eb5874;
+}
+
+h2 {
+    margin: 0 auto;
+    max-width:80%;
+    line-height: 1.8;
+    }
+
+h3 {
+    margin: 0 auto;
+    max-width:80%;
+    line-height: 1.8;
+    }
+
+p {
+    text-indent: 20px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/*Configuração do Banner do index*/
+.banner img {
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-bottom: 1%;
+    width: 20%; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+/* Sessão dos parágrafos do index */
+.sobre-danca p {
+    margin: 0 Auto;
+    max-Width:80%;
+
+}
+
+ .img-history img {
+    display: block;
+    margin: 0 auto;
+    width: 70%; 
+    height: auto;  
+} 
+
+.centralizar p {
+    text-align: center;
+    text-decoration: underline;
+}
+/*Sessão dos parágrafos da history */
+.history-danca p {
+    margin: 0 Auto;
+    max-Width:80%;
+}
+
+.ballet img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40%; 
+    height: auto;
+}
+
+/*Sessão dos parágrafos do Ballet */
+.ballet p {
+    margin: 0 Auto;
+    max-Width:80%;
+}
+
+/*Sessão dos parágrafos de Contemporany*/
+.contemporary p{
+    margin: 0 Auto;
+    max-Width:80%;
+}
+
+/*Sessão dos parágrafos de samba*/
+.samba p{
+    margin: 0 Auto;
+    max-Width:80%;
+}
+
+/*Sessão dos parágrafos de forró*/
+.forró p{
+    margin: 0 Auto;
+    max-Width:80%;
+}
+
+/*Sessão dos parágrafos de breakdance*/
+.break p{
+    margin: 0 Auto;
+    max-Width:80%;
+}
+.sobre-vídeo h2 {
+    margin: 0 Auto;
+    max-Width:80%;
+}
+.sobre-vídeo p{
+    margin: 0 Auto;
+    max-Width:80%;
+}
