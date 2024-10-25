@@ -1,0 +1,84 @@
+<!DocType HTML>
+<HTML>
+
+<Head>
+    <Link HRef="Lanchonete.css" Rel="StyleSheet">
+</Head>
+
+<Body>
+    <Header>
+        <Img Src="Images/Logo.png">
+    </Header>
+    <Main>
+        <Section>
+            <Div Class="Content">
+                <H2>
+                    Cadastro de Funcionários
+                </H2>
+                <BR>
+                <P>
+                    A funcionalidade de registro de usuários permite que novos usuários criem contas no sistema,
+                    fornecendo informações básicas como nome, e-mail e senha. Essa função garante que cada usuário tenha
+                    acesso personalizado, permitindo o acompanhamento de atividades, a gestão de preferências e a
+                    proteção de dados pessoais.
+                </P>
+                <BR>
+                <Form>
+                    <Input Id="Name" Name="Name" Placeholder="Nome" Type="Text">
+                    <BR>
+                    <BR>
+                    <Input Id="CPF" Name="CPF" Placeholder="CPF" Type="Text">
+                </Form>
+                <BR>
+                <button type="button" onclick="confirmRegistration()">Confirmar</button>
+            </Div>
+            <Div Class="Content">
+                <H2>
+                    Cadastro de Produtos
+                </H2>
+                <BR>
+                <P>
+                    A funcionalidade de cadastro de usuários possibilita que novos participantes se registrem na
+                    plataforma, informando dados como nome, e-mail e senha. Com essa função, cada usuário obtém uma
+                    conta única, permitindo acesso a recursos exclusivos, gerenciamento de preferências e acompanhamento
+                    de interações. O cadastro é essencial para garantir uma experiência personalizada e segura na
+                    plataforma.
+                </P>
+                <BR>
+                <Form>
+                    <Input Id="Name2" Name="Name2" Placeholder="Nome" Type="Text">
+                    <BR>
+                    <BR>
+                    <Input Id="Description" Name="Description" Placeholder="Descrição" Type="Text">
+                    <BR>
+                    <BR>
+                    <Input Id="Handler" Name="Handler" Placeholder="Funcionário responsável" Type="Text">
+                    <BR>
+                    <BR>
+                    <Select>
+                        <Option Value="1">
+                            Na fila
+                        </Option>
+                        <Option Value="2">
+                            Sendo feito
+                        </Option>
+                        <Option Value="3">
+                            Feito
+                        </Option>
+                    </Select>
+                </Form>
+                <BR>
+                <button type="button" onclick="confirmRegistration()">Confirmar</button>
+            </Div>
+        </Section>
+    </Main>
+    <Footer>
+        <P>
+            Lanchonete Sabor da Serra, Avenida das Palmeiras, 987, Bairro Jardim das Flores, São Paulo, SP - 01234-567,
+            Brasil.
+        </P>
+    </Footer>
+    <script src="Lanchonete.js"></script>
+</Body>
+
+</HTML>

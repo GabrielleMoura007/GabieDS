@@ -1,0 +1,94 @@
+* {
+    Box-Sizing: Border-Box;
+    Color: #333333;
+    Margin: 0;
+    Padding: 0;
+}
+
+Button {
+    Background-Color: #FAFAFA;
+    Border: 1Px Solid #F0F0F0;
+    Border-Radius: 10Px;
+    Cursor: Pointer;
+    Color: #777777;
+    Width: 75%;
+    Padding: 10Px;
+    Transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona a transição */
+}
+
+Button:hover {
+    Background-Color: #C8C8C8;
+    Color: #555555;
+}
+
+.Content {
+    Background-Color: #FAFAFA;
+    Border-Radius: 10Px;
+    Margin: 20Px 0;
+    Padding: 10Px;
+    Text-Align: Center;
+}
+
+@Font-Face {
+    Font-Family: Lobster-Regular;
+    Src: URL("Fonts/Lobster/Lobster-Regular.ttf");
+}
+
+@Font-Face {
+    Font-Family: Open_Sans-Light;
+    Src: URL("Fonts/Open_Sans/static/OpenSans-Light.ttf");
+}
+
+Footer {
+    Background-Color: #FAFAFA;
+    Padding: 10Px;
+    Text-Align: Center;
+}
+
+Header {
+    Background-Color: #EA1D2C;
+    Text-Align: Center;
+    Padding: 10Px;
+}
+
+Img {
+    Height: 100Px;
+    Width: 100Px;
+}
+
+Input {
+    Background-Color: #FAFAFA;
+    Border: 1Px Solid #F0F0F0;
+    Border-Radius: 10Px;
+    Color: #777777;
+    Width: 75%;
+    Padding: 10Px;
+}
+
+Main, H1 {
+    Font-Family: Open_Sans-Light;
+    Margin: 0 Auto;
+    Max-Width: 50%;
+}
+
+P {
+    Margin: 0 Auto;
+    Text-Align: Justify;
+    Width: 75%;
+}
+
+Footer P {
+    Font-Family: Open_Sans-Light;
+    Margin: 0 Auto;
+    Text-Align: Justify;
+    Width: 50%;
+}
+
+Select {
+    Background-Color: #FAFAFA;
+    Border: 1Px Solid #F0F0F0;
+    Color: #777777;
+    Border-Radius: 10Px;
+    Width: 75%;
+    Padding: 10Px;
+}
